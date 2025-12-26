@@ -9,7 +9,7 @@ public class Delet{
          }
              System.out.println("Enter the Position of the element to Delete");
          int d = sc.nextInt();
-         if(d<=0||d>n){
+         if(d<1||d>n){
             System.out.println("Invalid position ");
             return ;
          }
